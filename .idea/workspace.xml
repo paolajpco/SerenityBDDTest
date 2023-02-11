@@ -7,19 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
-    </list>
+    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Agregando Task Post y GetId" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +104,21 @@
       <option name="presentableId" value="Default" />
       <updated>1675995249633</updated>
     </task>
+    <task id="LOCAL-00001" summary="Agregando Task Post y GetId">
+      <created>1676143091653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676143091653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Agregando Task Post y GetId">
+      <created>1676143115780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676143115780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agregando Task Post y GetId" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando Task Post y GetId" />
   </component>
 </project>
