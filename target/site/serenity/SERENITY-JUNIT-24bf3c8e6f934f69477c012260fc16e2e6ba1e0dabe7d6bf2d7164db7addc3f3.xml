@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="GetDataUsersTests" skipped="0" tests="2" time="9.02" timestamp="2023-02-11 01:33:09"><testcase classname="GetDataUsersTests" name="Get users fail"><failure message="expected:&lt;[403]&gt; but was:&lt;[200]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[403]&gt; but was:&lt;[200]&gt;</failure><system-err>expected:&lt;[403]&gt; but was:&lt;[200]&gt;&#13;
+GetDataUsersTests.getUsersFail(GetDataUsersTests.java:32)&#13;
+</system-err></testcase><testcase classname="GetDataUsersTests" name="Get users"/></testsuite>
