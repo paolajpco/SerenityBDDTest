@@ -5,7 +5,9 @@ Este proyecto demuestra cómo implementar pruebas automatizadas con Serenity BDD
 Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
 
 Java 8 o superior
+
 Maven 3.6.0 o superior
+
 IDE sugerido IntelliJ
 
 **Instrucciones de instalación**
@@ -26,10 +28,15 @@ Las pruebas se ejecutan automáticamente con Maven al ejecutar el comando mvn cl
 
 **Tecnologías utilizadas**
 Java 8
+
 Maven 3.6.0
+
 Serenity BDD
+
 JUnit 4
+
 Selenium WebDriver
+
 **Autor**
 July Paola C. Ortiz
 
