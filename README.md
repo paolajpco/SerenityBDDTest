@@ -1,5 +1,5 @@
 **SerenityBDDTest**
-Este proyecto demuestra cómo implementar pruebas automatizadas con Serenity BDD y JUnit en una aplicación web.
+Este proyecto demuestra cómo implementar pruebas automatizadas con Serenity BDD y JUnit para Api Rest
 
 **Requisitos**
 Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
