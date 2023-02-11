@@ -1,8 +1,10 @@
 **SerenityBDDTest**
+___________________________________________________________________
 
 Este proyecto demuestra cómo implementar pruebas automatizadas con Serenity BDD y JUnit para Api Rest
 
 **Requisitos**
+____________________________________________________________________
 
 Antes de empezar, asegúrate de tener lo siguiente instalado en tu sistema:
 
@@ -34,6 +36,7 @@ mvn clean verify
 Las pruebas se ejecutan automáticamente con Maven al ejecutar el comando mvn clean verify. Después de la ejecución, se generará un informe de Serenity BDD que se encuentra en el directorio target/site/serenity.
 
 **Tecnologías utilizadas**
+__________________________________________________________________
 
 Java 8 o superior
 
