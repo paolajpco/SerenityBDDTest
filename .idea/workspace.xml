@@ -8,67 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/abilities/InteractWithDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/builders/FooBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/DatabaseConnectionInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/DatabaseType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/entity/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/persistence/manager/HibernatePersistenceUnitInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/persistence/manager/JpaEntityManagerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/facts/NetflixPlans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/interactions/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/Money.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/UpdatedUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/Datum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/RegisterUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/questions/GetUsersQuestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/questions/ResponseCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/questions/WasTheUserUpdated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/CastOfUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/PayUtilitiesStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/QuestionsStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/RegisterUserStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/UpdateUserStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/WithdrawStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/GetUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/RegisterUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/UpdateUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/UpdateUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/transformers/MoneyConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberTestSuite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/CuandoTransfieroAFondosInternacionales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/CuentaBancariaTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/SerenityBddTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/TaskExamplesV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/TaskExamplesV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/TasksExamplesV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/CommonHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/ConfHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/DatabaseHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/OtpHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/actualizar_usuarios.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/pago_de_facturas.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/questions.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registro_de_usuarios.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/retiro_de_dinero.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3d9d59eda7c970c34052a7cde0179cf2441095ff93bc00c116f552becd489de6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bec94e9517a9a177c82cc0f7659c24e4c5853ba4589c20bd79c8e10103c4dae9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +68,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/July/IdeaProjects/API_REST_TESTS/src/main",
+    "last_opened_file_path": "C:/Users/July/IdeaProjects/SerenityBDDTest",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -131,7 +81,7 @@
       <recent name="C:\Users\July\IdeaProjects\API_REST_TESTS\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostDataUsersTests">
+  <component name="RunManager" selected="JUnit.GetDataUsersTests">
     <configuration name="GetDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="" />
@@ -152,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostDataUsersTests" />
         <item itemvalue="JUnit.GetDataUsersTests" />
+        <item itemvalue="JUnit.PostDataUsersTests" />
       </list>
     </recent_temporary>
   </component>

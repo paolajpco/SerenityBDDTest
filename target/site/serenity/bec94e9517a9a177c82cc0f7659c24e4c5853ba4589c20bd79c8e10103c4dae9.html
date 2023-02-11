@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-02-2023 23:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-02-2023 12:22</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -173,9 +173,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="failing-color">
                                     Post users
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -280,7 +280,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.32s</span></td>
+                        <td width="100"><span class="top-level-step">0.37s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -311,7 +311,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.31s</span></td>
+                        <td width="100"><span class="nested-step">0.36s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -345,7 +345,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>Status code: 200</p>
+                                        <p>Status code: 400</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
                                         <pre>app-id=63e57ac1b09c73713be29554<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
@@ -354,9 +354,9 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Connection: keep-alive<br>Content-Length: 188<br>Access-Control-Allow-Origin: *<br>Cache-Control: private<br>Content-Type: application/json; charset=utf-8<br>Etag: W/&quot;bc-sUpS54hexsdMR8NAycC0Qj9TKQU&quot;<br>Server: Google Frontend<br>Strict-Transport-Security: max-age=31556926<br>X-Cloud-Trace-Context: 68568c5e13e5b973bc23ec025b59964b<br>X-Country-Code: CO<br>Accept-Ranges: bytes<br>Date: Sat, 11 Feb 2023 04:25:18 GMT<br>X-Served-By: cache-bog2260020-BOG<br>X-Cache: MISS<br>X-Cache-Hits: 0<br>X-Timer: S1676089519.655392,VS0,VE150<br>Vary: cookie,need-authorization, x-fh-requested-host, accept-encoding<br>alt-svc: h3=&quot;:443&quot;;ma=86400,h3-29=&quot;:443&quot;;ma=86400,h3-27=&quot;:443&quot;;ma=86400</pre>
+                                        <pre>Connection: keep-alive<br>Content-Length: 64<br>Access-Control-Allow-Origin: *<br>Content-Type: application/json; charset=utf-8<br>Etag: W/&quot;40-HXX7izSP+ZX512FtY2lGASVT7Uk&quot;<br>Function-Execution-Id: 0k7f4fgllw1w<br>Server: Google Frontend<br>X-Cloud-Trace-Context: f23036a07db78318d6f372d5029314e5<br>Accept-Ranges: bytes<br>Date: Sat, 11 Feb 2023 17:22:56 GMT<br>X-Served-By: cache-bog2260022-BOG<br>X-Cache: MISS<br>X-Cache-Hits: 0<br>X-Timer: S1676136176.366641,VS0,VE230<br>Vary: x-fh-requested-host, accept-encoding<br>alt-svc: h3=&quot;:443&quot;;ma=86400,h3-29=&quot;:443&quot;;ma=86400,h3-27=&quot;:443&quot;;ma=86400</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;id&quot;: &quot;63e718ae995aa456bf6b9891&quot;,<br>    &quot;firstName&quot;: &quot;John&quot;,<br>    &quot;lastName&quot;: &quot;Smith&quot;,<br>    &quot;email&quot;: &quot;johnx.smith@example.com&quot;,<br>    &quot;registerDate&quot;: &quot;2023-02-11T04:25:18.734Z&quot;,<br>    &quot;updatedDate&quot;: &quot;2023-02-11T04:25:18.734Z&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;error&quot;: &quot;BODY_NOT_VALID&quot;,<br>    &quot;data&quot;: {<br>        &quot;email&quot;: &quot;Email already used&quot;<br>    }<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -377,10 +377,57 @@
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
+                        <td width="40"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td>
+                        <td width="%" colspan="1">
+                                <span class="top-level-step">expected:<[2]00> but was:<[4]00></span>
+                        </td>
+                        <td width="130"><span
+                                    class="top-level-step">FAILURE</span>
+                        </td>
+                        <td width="100"><span class="top-level-step">0.4s</span></td>
+                    </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">expected:([2]00) but was:([4]00)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.junit.ComparisonFailure </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>PostDataUsersTests.postUsers(PostDataUsersTests.java:25)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr class="test-FAILURE">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.33s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.4s</em></span></td>
                 </tr>
 
             </table>
