@@ -11,11 +11,11 @@ IDE sugerido IntelliJ
 **Instrucciones de instalación**
 Clona este repositorio en tu sistema local utilizando el siguiente comando:
 bash
-Copy code
+
 git clone https://github.com/paolajpco/SerenityBDDTest.git
 Accede al directorio del proyecto:
 bash
-Copy code
+
 cd SerenityBDDTest
 Compila y ejecuta las pruebas con el siguiente comando:
 Copy code
