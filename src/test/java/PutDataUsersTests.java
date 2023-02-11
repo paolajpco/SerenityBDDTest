@@ -6,18 +6,18 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 @RunWith(SerenityRunner.class)
-
-public class GetDataUsersTests {
+public class PutDataUsersTests {
     private static final String restApiUrl = "https://dummyapi.io";
 
     @Test
     //HappyPath
-    public void getUsers() {
+    public void putUsersID() {
 
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
-        paola.attemptsTo(new GetDataUsers());
+        String registerUserInfo = "{" +
+                "\"id\": \"74973374307\"}";
+        paola.attemptsTo(new GetDataUserID(registerUserInfo));
         assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(200);
 
     }
@@ -25,11 +25,13 @@ public class GetDataUsersTests {
     //UnHappyPath
     @Test
 
-    public void getUsersFail() {
+    public void putUsersIDFail() {
 
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
-        paola.attemptsTo(new GetDataUsers());
-        assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(400);
+        String registerUserInfo = "{" +
+                "\"id\": \"74973374307\"}";
+        paola.attemptsTo(new GetDataUserID(registerUserInfo));
+        assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(403);
 
     }
 }
