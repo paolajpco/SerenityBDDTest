@@ -18,12 +18,15 @@ Clona este repositorio en tu sistema local utilizando el siguiente comando:
 bash
 
 git clone https://github.com/paolajpco/SerenityBDDTest.git
+
 Accede al directorio del proyecto:
 bash
 
 cd SerenityBDDTest
+
 Compila y ejecuta las pruebas con el siguiente comando:
 Copy code
+
 mvn clean verify
 
 **Ejecución de las pruebas**
