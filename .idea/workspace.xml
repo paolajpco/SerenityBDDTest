@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/abilities/InteractWithDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/builders/FooBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/DatabaseConnectionInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/DatabaseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/entity/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/persistence/manager/HibernatePersistenceUnitInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/database/persistence/manager/JpaEntityManagerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/facts/NetflixPlans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/interactions/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/UpdatedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/Datum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/RegisterUserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/models/users/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/questions/GetUsersQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/questions/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/questions/WasTheUserUpdated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/CastOfUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/PayUtilitiesStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/QuestionsStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/RegisterUserStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/UpdateUserStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/stepdefinitions/WithdrawStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/GetUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/RegisterUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/UpdateUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/tasks/UpdateUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testautomation/mesaj/transformers/MoneyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/CuandoTransfieroAFondosInternacionales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/CuentaBancariaTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/SerenityBddTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/TaskExamplesV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/TaskExamplesV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testautomation/mesaj/TasksExamplesV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/CommonHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/ConfHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/DatabaseHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/OtpHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/actualizar_usuarios.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/pago_de_facturas.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/questions.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registro_de_usuarios.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/retiro_de_dinero.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="df117a5a-c3fb-4d29-b326-3ce28eedc4c5" />
+        <option name="url" value="https://github.com/jdmesalosada/serenitybddrestinspanishtraining.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2LWmXDePZLqLlPhNiQM4OVWLcNh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/July/IdeaProjects/API_REST_TESTS/src/main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\July\IdeaProjects\API_REST_TESTS\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PostDataUsersTests">
+    <configuration name="GetDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetDataUsersTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostDataUsersTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PostDataUsersTests" />
+        <item itemvalue="JUnit.GetDataUsersTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="" />
+      <created>1675995249633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675995249633</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

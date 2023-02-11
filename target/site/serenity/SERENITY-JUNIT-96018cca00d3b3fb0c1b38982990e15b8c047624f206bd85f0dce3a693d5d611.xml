@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="UserApiRestGet" skipped="0" tests="2" time="9.57" timestamp="2023-02-09 09:50:15"><testcase classname="UserApiRestGet" name="Get users fail"><failure message="expected:&lt;40[0]&gt; but was:&lt;40[3]&gt;" type="org.junit.ComparisonFailure">expected:&lt;40[0]&gt; but was:&lt;40[3]&gt;</failure><system-err>expected:&lt;40[0]&gt; but was:&lt;40[3]&gt;&#13;
+UserApiRestGet.getUsersFail(UserApiRestGet.java:30)&#13;
+</system-err></testcase><testcase classname="UserApiRestGet" name="Get users"><failure message="expected:&lt;[200]&gt; but was:&lt;[403]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[200]&gt; but was:&lt;[403]&gt;</failure><system-err>expected:&lt;[200]&gt; but was:&lt;[403]&gt;&#13;
+UserApiRestGet.getUsers(UserApiRestGet.java:21)&#13;
+</system-err></testcase></testsuite>
