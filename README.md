@@ -1,7 +1,7 @@
 **SerenityBDDTest**
 ___________________________________________________________________
 
-Este proyecto demuestra cómo implementar pruebas automatizadas con Serenity BDD y JUnit para Api Rest
+Este proyecto presenta una forma de implementar pruebas automatizadas con Serenity BDD y JUnit para Api Rest usando como base el Framework Screenplay
 
 **Requisitos**
 ____________________________________________________________________
