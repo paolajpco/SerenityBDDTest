@@ -1,0 +1,18 @@
+# IntelliJ IDEA .idea directory
+.idea/
+
+# Archivo id.txt 
+*.txt
+
+# Archivos de informes generados por Serenity
+target/site/serenity/
+
+# Archivos compilados
+*.class
+*.jar
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
