@@ -25,7 +25,6 @@ public class PostDataUser implements Performable {
                                         .contentType(ContentType.JSON)
                                         .body(userInfo)
                 )
-
         );
     }
 }
