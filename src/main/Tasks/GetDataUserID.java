@@ -13,17 +13,13 @@ public class GetDataUserID implements Task {
 
     public <T extends Actor> void performAs(T actor) {
         SerenityRest.enableLoggingOfRequestAndResponseIfValidationFails();
-
         actor.attemptsTo(
                 Get.resource("/data/v1/user/{id}")
-                .with(requestSpecification
-                        -> requestSpecification
-                        .header("app-id", "63e57ac1b09c73713be29554")
-                        .contentType(ContentType.JSON)
-                        .pathParam("id", userInfo)
-
-
-        ));
-
+                        .with(requestSpecification
+                                -> requestSpecification
+                                .header("app-id", "63e57ac1b09c73713be29554")
+                                .contentType(ContentType.JSON)
+                                .pathParam("id", userInfo)
+                        ));
     }
 }

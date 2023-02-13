@@ -12,7 +12,7 @@ public class GetDataUsers implements Task {
                 Get.resource("/data/v1/user")
                         .with(requestSpecification
                                 -> requestSpecification.contentType(ContentType.JSON)
-                                .header("app-id","63e57ac1b09c73713be29554"))
+                                .header("app-id", "63e57ac1b09c73713be29554"))
         );
 
     }

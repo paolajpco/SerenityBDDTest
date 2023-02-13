@@ -15,21 +15,16 @@ public class GetDataUsersTests {
     @Test
     //HappyPath
     public void getUsers() {
-
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
         paola.attemptsTo(new GetDataUsers());
         assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(200);
-
     }
 
     //UnHappyPath
     @Test
-
     public void getUsersFail() {
-
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
         paola.attemptsTo(new GetDataUsers());
         assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(400);
-
     }
 }

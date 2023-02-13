@@ -1,16 +1,12 @@
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
 import java.util.Random;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -42,14 +38,11 @@ public class PostDataUsersTests  {
             e.printStackTrace();
         }
         assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(200);
-
     }
 
     //UnHappyPath
     @Test
-
     public void postUsersFail() {
-
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
         String registerUserInfo = "{" +
                 "\"lastName\": \"Smith\"," +
@@ -58,6 +51,5 @@ public class PostDataUsersTests  {
                 "}";
         paola.attemptsTo(PostDataUser.withInfo(registerUserInfo));
         assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(400);
-
     }
 }

@@ -7,13 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Add Task Post y GetId">
+    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="change in method POST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeleteDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeleteDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PostDataUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PostDataUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PostDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PostDataUsersTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PutDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PutDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DeleteDataUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DeleteDataUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PutDataUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PutDataUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DeleteDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeleteDataUsersTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GetDataUserIDTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetDataUserIDTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PutDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PutDataUsersTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -77,11 +88,11 @@
       <recent name="C:\Users\July\IdeaProjects\API_REST_TESTS\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostDataUsersTests.postUsers">
-    <configuration name="GetDataUserIDTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PutDataUsersTests">
+    <configuration name="DeleteDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetDataUserIDTests" />
+      <option name="MAIN_CLASS_NAME" value="DeleteDataUsersTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,25 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetDataUsersTests.getUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetDataUsersTests" />
-      <option name="METHOD_NAME" value="getUsers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PostDataUsersTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostDataUsersTests.postUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,13 +118,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PutDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PutDataUsersTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutDataUsersTests.putUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PutDataUsersTests" />
+      <option name="METHOD_NAME" value="putUsersID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostDataUsersTests.postUsers" />
-        <item itemvalue="JUnit.PostDataUsersTests" />
-        <item itemvalue="JUnit.GetDataUserIDTests" />
-        <item itemvalue="JUnit.GetDataUsersTests.getUsers" />
+        <item itemvalue="JUnit.PutDataUsersTests" />
         <item itemvalue="JUnit.GetDataUserIDTests.getUsersID" />
+        <item itemvalue="JUnit.PutDataUsersTests.putUsersID" />
+        <item itemvalue="JUnit.PostDataUsersTests.postUsers" />
+        <item itemvalue="JUnit.DeleteDataUsersTests" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676143224240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change in method POST">
+      <created>1676248826206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676248826206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +201,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregando Task Post y GetId" />
     <MESSAGE value="Add Task Post y GetId" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task Post y GetId" />
+    <MESSAGE value="change in method POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in method POST" />
   </component>
 </project>
