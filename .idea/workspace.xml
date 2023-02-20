@@ -7,22 +7,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="change in method POST">
+    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/DeleteDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeleteDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeleteDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PutDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PutDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/DeleteDataUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUserID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/GetDataUserID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/GetDataUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/GetDataUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PostDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/PostDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tasks/PutDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/PutDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeleteDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/DeleteDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetDataUserIDTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/GetDataUserIDTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/GetDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PostDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/PostDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PutDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/PutDataUsersTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DeleteDataUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DeleteDataUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PutDataUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PutDataUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GetDataUserID.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GetDataUserID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PostDataUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PostDataUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DeleteDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeleteDataUsersTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GetDataUserIDTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetDataUserIDTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GetDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetDataUsersTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PostDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PostDataUsersTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PutDataUsersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PutDataUsersTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +81,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/July/IdeaProjects/SerenityBDDTest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/July/IdeaProjects/SerenityBDDTest/src/main&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -85,14 +91,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main" />
+      <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\Questions" />
       <recent name="C:\Users\July\IdeaProjects\API_REST_TESTS\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\Java" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PutDataUsersTests">
     <configuration name="DeleteDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeleteDataUsersTests" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.DeleteDataUsersTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,8 +111,8 @@
     </configuration>
     <configuration name="GetDataUserIDTests.getUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetDataUserIDTests" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.GetDataUserIDTests" />
       <option name="METHOD_NAME" value="getUsersID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -110,8 +121,8 @@
     </configuration>
     <configuration name="PostDataUsersTests.postUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PostDataUsersTests" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PostDataUsersTests" />
       <option name="METHOD_NAME" value="postUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -120,8 +131,8 @@
     </configuration>
     <configuration name="PutDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PutDataUsersTests" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PutDataUsersTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,8 +140,8 @@
     </configuration>
     <configuration name="PutDataUsersTests.putUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PutDataUsersTests" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PutDataUsersTests" />
       <option name="METHOD_NAME" value="putUsersID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -184,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676248826206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change in method POST">
+      <created>1676257257063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676257257063</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

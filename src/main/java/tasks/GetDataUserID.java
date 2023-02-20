@@ -1,3 +1,5 @@
+package tasks;
+
 import io.restassured.http.ContentType;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;

@@ -1,3 +1,6 @@
+package Runners;
+
+import tasks.GetDataUsers;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
