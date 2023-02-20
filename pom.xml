@@ -167,7 +167,7 @@
                         <include>**/*Test*.java</include>
                     </includes>
                     <systemPropertyVariables>
-                        <restapi.baseurl>${restapi.baseurl}</restapi.baseurl>
+                        <restapi.baseurl>${https://dummyapi.io}</restapi.baseurl>
                     </systemPropertyVariables>
                 </configuration>
                 <executions>
@@ -216,13 +216,13 @@
         <profile>
             <id>dev</id>
             <properties>
-                <restapi.baseurl>http://localhost:5000/api</restapi.baseurl>
+                <restapi.baseurl>https://dummyapi.io/</restapi.baseurl>
             </properties>
         </profile>
         <profile>
             <id>prod</id>
             <properties>
-                <restapi.baseurl>https://reqres.in/api</restapi.baseurl>
+                <restapi.baseurl>https://dummyapi.io/</restapi.baseurl>
             </properties>
         </profile>
     </profiles>
