@@ -1,7 +1,10 @@
+StepDefinitions\PostUserIdSteps.class
 Runners\PostDataUsersRunner.class
 Runners\GetDataUserIDRunner.class
+StepDefinitions\DeleteUserSteps.class
 Runners\GetDataUsersRunner.class
 StepDefinitions\GetUsersIDSteps.class
 StepDefinitions\GetUsersSteps.class
 Runners\DeleteDataUsersRunner.class
+StepDefinitions\PutUserIDSteps.class
 Runners\PutDataUsersRunner.class
