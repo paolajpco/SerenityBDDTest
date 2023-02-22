@@ -1,5 +1,7 @@
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\DeleteDataUsersTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\GetDataUserIDTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\GetDataUsersTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\PostDataUsersTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\PutDataUsersTests.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\StepDefinitions\GetUsersIDSteps.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\DeleteDataUsersRunner.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\GetDataUsersRunner.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\PutDataUsersRunner.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\StepDefinitions\GetUsersSteps.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\PostDataUsersRunner.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\GetDataUserIDRunner.java

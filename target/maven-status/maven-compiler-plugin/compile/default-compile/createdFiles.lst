@@ -1,0 +1,5 @@
+tasks\GetDataUserID.class
+tasks\PutDataUser.class
+tasks\PostDataUser.class
+tasks\DeleteDataUser.class
+tasks\GetDataUsers.class

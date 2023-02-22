@@ -15,4 +15,5 @@ target/site/serenity/
 *.log
 *.tmp
 *.swp
-
+*.png
+*.jpg
