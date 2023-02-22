@@ -1,5 +1,5 @@
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\DeleteDataUsersTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\GetDataUserIDTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\GetDataUsersTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\PostDataUsersTests.java
-C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\PutDataUsersTests.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\GetDataUserIDTests.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\DeleteDataUsersTests.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\PostDataUsersTests.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\GetDataUsersTests.java
+C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java\Runners\PutDataUsersTests.java
