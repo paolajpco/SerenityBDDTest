@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Runners.GetDataUserIDTests" time="0.645" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="Runners.GetDataUserIDTests" time="0.869" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="getUsersIDFail" classname="Runners.GetDataUserIDTests" time="0.293"/>
-  <testcase name="getUsersID" classname="Runners.GetDataUserIDTests" time="0.352">
+  <testcase name="getUsersIDFail" classname="Runners.GetDataUserIDTests" time="0.418"/>
+  <testcase name="getUsersID" classname="Runners.GetDataUserIDTests" time="0.451">
     <failure message="expected:&lt;[200]&gt; but was:&lt;[404]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[200]> but was:<[404]>
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)

@@ -8,24 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_6_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_matchers_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_cucumber6_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_rest_assured_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/PostDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/PostDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.DeleteDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.DeleteDataUsersTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.GetDataUserIDTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.GetDataUserIDTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.GetDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.GetDataUsersTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.PostDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.PostDataUsersTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.PutDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.PutDataUsersTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,21 +171,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeleteDataUsersTests" />
-      <item itemvalue="JUnit.GetDataUserIDTests.getUsersID" />
-      <item itemvalue="JUnit.PostDataUsersTests.postUsers" />
-      <item itemvalue="JUnit.PutDataUsersTests" />
-      <item itemvalue="JUnit.PutDataUsersTests.putUsersID" />
+      <item itemvalue="JUnit.FiveDeleteDataUsersTests" />
+      <item itemvalue="JUnit.ThreeGetDataUserIDTests.getUsersID" />
+      <item itemvalue="JUnit.TwoPostDataUsersTests.postUsers" />
+      <item itemvalue="JUnit.FourPutDataUsersTests" />
+      <item itemvalue="JUnit.FourPutDataUsersTests.putUsersID" />
       <item itemvalue="Kotlin script (Beta).Unnamed" />
       <item itemvalue="Maven.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PutDataUsersTests" />
-        <item itemvalue="JUnit.GetDataUserIDTests.getUsersID" />
-        <item itemvalue="JUnit.PutDataUsersTests.putUsersID" />
-        <item itemvalue="JUnit.PostDataUsersTests.postUsers" />
-        <item itemvalue="JUnit.DeleteDataUsersTests" />
+        <item itemvalue="JUnit.FourPutDataUsersTests" />
+        <item itemvalue="JUnit.ThreeGetDataUserIDTests.getUsersID" />
+        <item itemvalue="JUnit.FourPutDataUsersTests.putUsersID" />
+        <item itemvalue="JUnit.TwoPostDataUsersTests.postUsers" />
+        <item itemvalue="JUnit.FiveDeleteDataUsersTests" />
       </list>
     </recent_temporary>
   </component>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Runners.PostDataUsersTests" time="3.863" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="Runners.PostDataUsersTests" time="1.793" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,6 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="postUsersFail" classname="Runners.PostDataUsersTests" time="2.972"/>
-  <testcase name="postUsers" classname="Runners.PostDataUsersTests" time="0.891"/>
+  <testcase name="postUsersFail" classname="Runners.PostDataUsersTests" time="0.374"/>
+  <testcase name="postUsers" classname="Runners.PostDataUsersTests" time="1.419"/>
 </testsuite>

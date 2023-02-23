@@ -15,7 +15,7 @@ import java.util.Random;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SerenityRunner.class)
-public class PostDataUsersTests  {
+public class PostDataUsersTests {
     private static final String restApiUrl = "https://dummyapi.io";
 
     @Test
