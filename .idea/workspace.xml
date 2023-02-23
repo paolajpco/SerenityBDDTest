@@ -7,22 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in packages">
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_6_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_matchers_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_cucumber6_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_reports_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_stats_2_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,9 +182,9 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Get data Users" />
-      <item itemvalue="JUnit.GetUsers" />
       <item itemvalue="JUnit.DeleteDataUsersRunner" />
       <item itemvalue="JUnit.GetDataUserIDRunner.getUsersID" />
+      <item itemvalue="JUnit.GetUsers" />
       <item itemvalue="JUnit.PutDataUsersRunner" />
       <item itemvalue="JUnit.PutDataUsersRunner.putUsersID" />
       <item itemvalue="Maven.Runner" />
