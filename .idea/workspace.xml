@@ -8,21 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in packages">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_rest_assured_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_5.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_6_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_matchers_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_cucumber6_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_reports_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_stats_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GetUsers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GetUsers.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/GetUsers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/GetUsers.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +98,32 @@
       <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Runner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Get data Users">
+    <configuration name="Scenario: Get data Users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetUsers.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="NAME_FILTER" value="^Get data Users$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get data Users$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get data Users" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteDataUsersRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="Runners" />
       <option name="MAIN_CLASS_NAME" value="Runners.DeleteDataUsersRunner" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDataUsersRunner.postUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetUsers" type="JUnit" factoryName="JUnit">
       <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.PostDataUsersRunner" />
-      <option name="METHOD_NAME" value="postUsers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Runners.GetDataUsersRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +153,7 @@
       <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="Runners" />
       <option name="MAIN_CLASS_NAME" value="Runners.PutDataUsersRunner" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,20 +196,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Get data Users" />
+      <item itemvalue="JUnit.GetUsers" />
       <item itemvalue="JUnit.DeleteDataUsersRunner" />
       <item itemvalue="JUnit.GetDataUserIDRunner.getUsersID" />
-      <item itemvalue="JUnit.PostDataUsersRunner.postUsers" />
       <item itemvalue="JUnit.PutDataUsersRunner" />
       <item itemvalue="JUnit.PutDataUsersRunner.putUsersID" />
       <item itemvalue="Maven.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Get data Users" />
         <item itemvalue="JUnit.DeleteDataUsersRunner" />
         <item itemvalue="JUnit.GetDataUserIDRunner.getUsersID" />
         <item itemvalue="JUnit.PutDataUsersRunner" />
         <item itemvalue="JUnit.PutDataUsersRunner.putUsersID" />
-        <item itemvalue="JUnit.PostDataUsersRunner.postUsers" />
       </list>
     </recent_temporary>
   </component>
