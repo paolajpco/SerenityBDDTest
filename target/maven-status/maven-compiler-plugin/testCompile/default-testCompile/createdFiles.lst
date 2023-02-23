@@ -1,5 +1,5 @@
-Runners\GetDataUserIDTests.class
+Runners\aGetDataUsersTests.class
+Runners\cGetDataUserIDTests.class
 Runners\PutDataUsersTests.class
 Runners\DeleteDataUsersTests.class
-Runners\PostDataUsersTests.class
-Runners\GetDataUsersTests.class
+Runners\bPostDataUsersTests.class

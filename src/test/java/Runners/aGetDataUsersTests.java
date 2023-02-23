@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SerenityRunner.class)
 
-public class GetDataUsersTests {
+public class aGetDataUsersTests {
     private static final String restApiUrl = "https://dummyapi.io";
 
     @Test

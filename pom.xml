@@ -10,7 +10,7 @@
 
     <name>API_REST_TESTS</name>
 
-    <url>https://github.com/paolajpco/SpSerenitybdd</url>
+    <url>https://github.com/paolajpco/SerenityBDDTest</url>
 
     <properties>
         <java.version>1.8</java.version>
