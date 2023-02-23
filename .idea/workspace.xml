@@ -8,19 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/GetDataUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/GetDataUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/PutDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/cPutDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/aGetDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/aGetDataUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.DeleteDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.DeleteDataUsersTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.PutDataUsersTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.aGetDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.aGetDataUsersTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.bPostDataUsersTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.bPostDataUsersTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.cGetDataUserIDTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-Runners.cGetDataUserIDTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
