@@ -17,7 +17,7 @@ import java.io.FileNotFoundException;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SerenityRunner.class)
-public class PutDataUsersTests {
+public class cPutDataUsersTests {
     private static final String restApiUrl = "https://dummyapi.io";
 
     @Test

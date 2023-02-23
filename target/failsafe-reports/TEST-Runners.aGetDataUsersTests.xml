@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Runners.aGetDataUsersTests" time="7.95" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="Runners.aGetDataUsersTests" time="6.423" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,40 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="getUsersFail" classname="Runners.aGetDataUsersTests" time="7.54">
-    <failure message="expected:&lt;[4]00&gt; but was:&lt;[2]00&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[4]00> but was:<[2]00>
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at Runners.aGetDataUsersTests.getUsersFail(aGetDataUsersTests.java:31)
-]]></failure>
-    <system-err><![CDATA[[main] INFO  - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at http://www.serenity-bdd.info                                  
- Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
- Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
- Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
--------------------------------------------------------------------------------------
-
-[main] INFO  - Test Suite Started: A get data users tests
-[main] INFO  - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-
-getUsersFail
--------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="getUsers" classname="Runners.aGetDataUsersTests" time="0.41"/>
+  <testcase name="getUsersFail" classname="Runners.aGetDataUsersTests" time="6.003"/>
+  <testcase name="getUsers" classname="Runners.aGetDataUsersTests" time="0.42"/>
 </testsuite>

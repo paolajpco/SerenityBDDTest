@@ -7,6 +7,11 @@ import net.serenitybdd.screenplay.rest.interactions.Get;
 
 public class GetDataUsers implements Task {
 
+    private final String key;
+
+    public GetDataUsers(String key) {
+        this.key = key;
+    }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -14,7 +19,7 @@ public class GetDataUsers implements Task {
                 Get.resource("/data/v1/user")
                         .with(requestSpecification
                                 -> requestSpecification.contentType(ContentType.JSON)
-                                .header("app-id", "63e57ac1b09c73713be29554"))
+                                .header("app-id", key))
         );
 
     }

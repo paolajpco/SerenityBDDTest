@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SerenityBDDTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="serenitybddrestinspanishtraining" target="11" />
+      <module name="SerenityBDDTest" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

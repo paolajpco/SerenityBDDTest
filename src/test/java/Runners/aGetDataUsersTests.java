@@ -19,7 +19,7 @@ public class aGetDataUsersTests {
     //HappyPath
     public void getUsers() {
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
-        paola.attemptsTo(new GetDataUsers());
+        paola.attemptsTo(new GetDataUsers("63e57ac1b09c73713be29554"));
         assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(200);
     }
 
@@ -27,7 +27,7 @@ public class aGetDataUsersTests {
     @Test
     public void getUsersFail() {
         Actor paola = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
-        paola.attemptsTo(new GetDataUsers());
-        assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(400);
+        paola.attemptsTo(new GetDataUsers("12345"));
+        assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(403);
     }
 }
