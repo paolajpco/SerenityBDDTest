@@ -154,6 +154,14 @@
                     <argLine>-Xmx1024m -XX:MaxPermSize=512m</argLine>
                     <skip>true</skip>
                     <skipTests>true</skipTests>
+                    <runOrder>alphabetical</runOrder>
+                    <includes>
+                        <include>**/GetDataUsersTests.java</include>
+                        <include>**/GetDataUserIDTests.java</include>
+                        <include>**/PostDataUsersTests.java</include>
+                        <include>**/PutDataUsersTests.java</include>
+                        <include>**/DeleteDataUsersTests.java</include>
+                    </includes>
                 </configuration>
             </plugin>
             <plugin>
