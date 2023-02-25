@@ -7,8 +7,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE">
+    <list default="true" id="5497dc72-880f-4707-a3a9-0d05d01e0f16" name="Changes" comment="Change in PUT and DELETE">
+      <change afterPath="$PROJECT_DIR$/prueba.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/DeleteDataUsersRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/GetDataUserIDRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/GetDataUsersRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/PostDataUsersRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/PutDataUsersRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DeleteUserSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersIDSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PostUserIdSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PutUserIDSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DeleteUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetIdUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PostUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PutUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/DeleteUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/GetIdUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/GetUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/PostUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/PutUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_reports_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_stats_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serenitybddrestinspanishtraining.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/DeleteDataUsersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/aGetDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interactions/aGetDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/bPostDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interactions/bPostDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/cGetDataUserIDTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interactions/cGetDataUserIDTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/cPutDataUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interactions/cPutDataUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +61,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="df117a5a-c3fb-4d29-b326-3ce28eedc4c5" />
-        <option name="url" value="https://github.com/jdmesalosada/serenitybddrestinspanishtraining.git" />
+        <option name="url" value="git@github.com:paolajpco/SerenityBDDTest.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -60,16 +103,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/July/IdeaProjects/SerenityBDDTest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/July/IdeaProjects/SerenityBDDTest/src/main&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\java" />
+      <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\test\java" />
       <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main" />
       <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\Questions" />
       <recent name="C:\Users\July\IdeaProjects\API_REST_TESTS\src\main" />
@@ -78,60 +123,65 @@
       <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Runner">
+  <component name="RunManager" selected="JUnit.PutDataUsersTests">
     <configuration name="DeleteDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SerenityBDDTest" />
+      <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.DeleteDataUsersTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bPostDataUsersTests.postUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SerenityBDDTest" />
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.bPostDataUsersTests" />
-      <option name="METHOD_NAME" value="postUsers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cGetDataUserIDTests.getUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SerenityBDDTest" />
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.cGetDataUserIDTests" />
-      <option name="METHOD_NAME" value="getUsersID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cPutDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SerenityBDDTest" />
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.cPutDataUsersTests" />
+      <option name="MAIN_CLASS_NAME" value="Runners.DeleteDataUsersRunner" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cPutDataUsersTests.putUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SerenityBDDTest" />
+    <configuration name="GetDataUserIDTests.getUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
       <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.cPutDataUsersTests" />
+      <option name="MAIN_CLASS_NAME" value="Runners.GetDataUserIDTests" />
+      <option name="METHOD_NAME" value="getUsersID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostDataUsersTests.postUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PostDataUsersTests" />
+      <option name="METHOD_NAME" value="postUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutDataUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PutDataUsersTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutDataUsersTests.putUsersID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenitybddrestinspanishtraining" />
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.PutDataUsersTests" />
       <option name="METHOD_NAME" value="putUsersID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="SerenityBDDTest" />
-      <shortenClasspath name="NONE" />
-      <option name="filePath" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SerenityBDDTest" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,18 +213,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.cPutDataUsersTests" />
-      <item itemvalue="JUnit.cPutDataUsersTests.putUsersID" />
       <item itemvalue="JUnit.DeleteDataUsersTests" />
-      <item itemvalue="JUnit.bPostDataUsersTests.postUsers" />
-      <item itemvalue="JUnit.cGetDataUserIDTests.getUsersID" />
-      <item itemvalue="Kotlin script (Beta).Unnamed" />
+      <item itemvalue="JUnit.GetDataUserIDTests.getUsersID" />
+      <item itemvalue="JUnit.PostDataUsersTests.postUsers" />
+      <item itemvalue="JUnit.PutDataUsersTests" />
+      <item itemvalue="JUnit.PutDataUsersTests.putUsersID" />
       <item itemvalue="Maven.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.cGetDataUserIDTests.getUsersID" />
-        <item itemvalue="JUnit.bPostDataUsersTests.postUsers" />
+        <item itemvalue="JUnit.PutDataUsersTests" />
+        <item itemvalue="JUnit.GetDataUserIDTests.getUsersID" />
+        <item itemvalue="JUnit.PutDataUsersTests.putUsersID" />
+        <item itemvalue="JUnit.PostDataUsersTests.postUsers" />
+        <item itemvalue="JUnit.DeleteDataUsersTests" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676257257063</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change in packages">
+      <created>1677095185071</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677095185071</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +299,8 @@
     <MESSAGE value="Agregando Task Post y GetId" />
     <MESSAGE value="Add Task Post y GetId" />
     <MESSAGE value="change in method POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in method POST" />
+    <MESSAGE value="Change in PUT and DELETE" />
+    <MESSAGE value="Change in packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in packages" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package Runners;
+package Interactions;
 
 import tasks.PostDataUser;
 import net.serenitybdd.junit.runners.SerenityRunner;
