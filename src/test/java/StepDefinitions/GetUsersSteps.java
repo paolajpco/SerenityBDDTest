@@ -3,7 +3,6 @@ package StepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 import tasks.GetDataUsers;
 
@@ -13,15 +12,16 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-
 public class GetUsersSteps {
     private static final String restApiUrl = "https://dummyapi.io";
+
     @Given("I need to know the available users")
     public void i_need_to_know_the_available_users() {
         //actor = Actor.named("Paola user").whoCan(CallAnApi.at(restApiUrl));
         theActorCalled("Paola user").whoCan(CallAnApi.at(restApiUrl));
         throw new io.cucumber.java.PendingException();
     }
+
     @When("I get the response from the GET method")
     public void i_get_the_response_from_the_get_method() {
         //actor.attemptsTo(new GetDataUsers());
@@ -36,7 +36,6 @@ public class GetUsersSteps {
         throw new io.cucumber.java.PendingException();
 
     }
-
 
 
 }

@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE" />
+    <list default="true" id="fb66972c-3f6a-4302-b6a9-30de8e1f29ea" name="Changes" comment="Change in PUT and DELETE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/GetUsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumber.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +87,7 @@
       <recent name="C:\Users\July\IdeaProjects\SerenityBDDTest\src\main\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Get data Users">
+  <component name="RunManager" selected="JUnit.GetUsers">
     <configuration name="Scenario: Get data Users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetUsers.feature" />
@@ -182,9 +186,9 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Get data Users" />
+      <item itemvalue="JUnit.GetUsers" />
       <item itemvalue="JUnit.DeleteDataUsersRunner" />
       <item itemvalue="JUnit.GetDataUserIDRunner.getUsersID" />
-      <item itemvalue="JUnit.GetUsers" />
       <item itemvalue="JUnit.PutDataUsersRunner" />
       <item itemvalue="JUnit.PutDataUsersRunner.putUsersID" />
       <item itemvalue="Maven.Runner" />
